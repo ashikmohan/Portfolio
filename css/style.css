@@ -9944,6 +9944,21 @@ h6,
   top: 30px;
   left: 30px;
 }
+.portfolio-item img{
+width:100%;
+height:260px;
+object-fit:cover;
+transition:0.3s;
+}
+
+.portfolio-item img:hover{
+transform:scale(1.05);
+}
+
+.portfolio-text p{
+font-size:14px;
+margin:0;
+}
 
 .testimonial-carousel .owl-dots {
   margin-top: 25px;
